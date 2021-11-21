@@ -93,4 +93,9 @@ router.post('/:id/profile', upload.single('profile'), () => {})
 </br>
 </br>
 
-# NoSql
+# NoSql / MongoDB
+전통적인 관계형 데이터베이스 보다 덜 제한적인 일관성 모델을 이용하는 데이터의 저장 및 검색을 위한 매커니즘을 제공한다.  
+이러한 접근에 대한 동기에는 디자인의 단순화, 수평적 확장성, 세세한 통제를 포함한다
+```
+npm i mongodb @types/mongodb
+```
